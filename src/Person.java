@@ -15,8 +15,12 @@ public class Person implements Serializable{
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "Person [id=" + id + ", name=" + name + "]";
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Person (" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ')';
     }
 }
