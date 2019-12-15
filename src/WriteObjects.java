@@ -16,8 +16,8 @@ public class WriteObjects {
     public static void main(String[] args) {
         System.out.println("Writing objects...");
 
-        Person mike = new Person(543, "Mike");
-        Person sue = new Person(123, "Sue");
+        Person mike = new Person(543, "Mike", "mike@mike.com");
+        Person sue = new Person(123, "Sue", "sue@sue.com");
 
         System.out.println(mike);
         System.out.println(sue);
