@@ -13,9 +13,11 @@ public class ReadObjects {
             Person person1 = (Person)os.readObject();
             Person person2 = (Person)os.readObject();
 
+
             os.close();
             System.out.println(person1);
             System.out.println(person2);
+
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -18,9 +18,11 @@ public class WriteObjects {
 
         Person mike = new Person(543, "Mike", "mike@mike.com");
         Person sue = new Person(123, "Sue", "sue@sue.com");
+        Person jane = new Person(126, "jane", "jane@sue.com");
 
         System.out.println(mike);
         System.out.println(sue);
+        System.out.println(jane);
 
         //FileOutputStream class lets us stream(send sequentially) data to a file
         //the provided file may have any extension, but ".data" or  ".bin" are typical for binary files.
